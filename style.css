@@ -9,3 +9,18 @@ body{
 #linkedin{
     text-decoration: underline;
 }
+image{
+    width: 500px;
+    height: 500px;
+}
+#imagem{
+    text-align: center;
+}
+header{
+    background-color: rgb(129, 94, 92);
+    height: 150px;
+    color: rgb(240, 223, 223);
+    text-align-last: center;
+    font-size: 30px;
+    top: 10px;
+}
