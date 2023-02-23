@@ -1,26 +1,43 @@
 body{
-    background-color: rgb(240, 212, 212);
+    background-color: rgb(249, 241, 241);
     color: rgb(90, 61, 61);
-    font-family: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.principal{
+h1, .sobre-mim{
     text-align: center;
 }
-#linkedin{
-    text-decoration: underline;
+#imagem {
+    width: 40%;
+    border-radius: 50%;
+    padding-left: 30px;
 }
-image{
-    width: 500px;
-    height: 500px;
+h1, #imagem, .sobre-mim {
+    display: block;
 }
-#imagem{
-    text-align: center;
+.sobre-mim {
+    width: 500px; 
+    padding-left: 150px;
+    line-height: 30px;
+}
+.habilidades, .meus-perfis{
+    line-height: 30px;
+}
+h2 {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-direction: row;
+    text-align: justify; 
 }
 header{
-    background-color: rgb(129, 94, 92);
-    height: 150px;
-    color: rgb(240, 223, 223);
-    text-align-last: center;
-    font-size: 30px;
-    top: 10px;
-}
+    background-color: rgb(177, 155, 153);
+}  
